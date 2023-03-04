@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page-1</title>
+    <link rel="stylesheet" href="style.css"/>
+  </head>
+  <body>
+
+    <div class="top">
+        <div class="nav" onclick="loader()">
+            <h2>Book Store App</h2>
+        </div>
+        <button id="histroyBtn">History</button>
+    </div>
+    
+
+    <br>
+
+    <div class="searching">
+      <p>Searching For Books By Their Name</p>
+      <input type="text" name="searchingInput" placeholder="Search" id="searchingInput"/>
+      <br>
+      <div id="btn">
+        <button id="searchingNow" class="btn">Search</button></div>
+        <br>  
+      </div>
+    </div>
+    <div id="outputText">Book Results For `<span id="searchingInOut"></span>`
+    
+    </div>
+    <div id="output">
+    
+    </div>
+    <script src="script.js"></script>
+    <script>
+      function loader() {
+        window.location.href = "landingPage1.html";
+      }
+    </script>
+  </body>
+</html>
